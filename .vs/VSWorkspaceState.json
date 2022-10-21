@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Aula01"
+    "\\Aula01",
+    "\\RetanguloApp",
+    "\\RetanguloApp\\RetanguloApp"
   ],
+  "SelectedNode": "\\RetanguloApp\\RetanguloApp\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

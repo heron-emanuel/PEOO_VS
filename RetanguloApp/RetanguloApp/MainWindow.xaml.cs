@@ -25,14 +25,11 @@ namespace RetanguloApp
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged()
-        {
-
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Retangulo rect = new Retangulo(double.Parse(baseField.Text), double.Parse(height.Text));
+            area.Text = rect.CalcArea().ToString();
+            diagonal.Text = rect.CalcDiagonal().ToString();
         }
     }
 }

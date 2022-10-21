@@ -10,18 +10,18 @@
         <GroupBox Header="Área e Diagonal" HorizontalAlignment="Center" Height="414" VerticalAlignment="Center" Width="456">
             <Grid>
                 <TextBlock HorizontalAlignment="Left" Margin="40,45,0,321" TextWrapping="Wrap" Width="29"><Run Language="pt-br" Text="Base"/></TextBlock>
-                <TextBox x:Name="base" HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" Height="29"/>
+                <TextBox x:Name="baseField" HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="29"/>
 
                 <TextBlock HorizontalAlignment="Left" Margin="257,45,0,321" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Width="38"><Run Language="pt-br" Text="Altura"/></TextBlock>
-                <TextBox x:Name="height" HorizontalAlignment="Left" Margin="257,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" Height="29"/>
+                <TextBox x:Name="height" HorizontalAlignment="Left" Margin="257,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="29"/>
 
                 <Button Content="Calcular" HorizontalAlignment="Left" Margin="40,164,0,0" VerticalAlignment="Top" Height="32" Width="360" Click="Button_Click"/>
 
                 <TextBlock HorizontalAlignment="Left" Margin="40,229,0,137" TextWrapping="Wrap" Width="29"><Run Language="pt-br" Text="Área"/></TextBlock>
-                <TextBox x:Name="area" HorizontalAlignment="Left" Margin="40,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" Height="29"/>
+                <TextBox x:Name="area" HorizontalAlignment="Left" Margin="40,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="29"/>
 
                 <TextBlock HorizontalAlignment="Left" Margin="257,229,0,137" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Width="55"><Run Language="pt-br" Text="Diagonal"/></TextBlock>
-                <TextBox x:Name="diagonal" HorizontalAlignment="Left" Margin="257,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" TextChanged="TextBox_TextChanged" Height="29"/>
+                <TextBox x:Name="diagonal" HorizontalAlignment="Left" Margin="257,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="29"/>
             </Grid>
         </GroupBox>
 
